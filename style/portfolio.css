@@ -73,6 +73,8 @@ nav ul{
     
 }
 
+
+
 /* banner style */
 .banner{
     display: flex;
@@ -109,6 +111,8 @@ nav ul{
     color: #181818;
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
+    
 
 }
 
@@ -189,4 +193,54 @@ main section{
 .skill{
     padding:30px;
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Resume */
+.resume{
+    /* text-align: center; */
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-coloum-title{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.experience-description{
+       color: #757575;
+
+}
+
+.resume h1{
+    margin-bottom: 100px;
+}
+
+.resume hr{
+    margin: 30px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.resume .text-center{
+    margin-top: 50px;
 }
