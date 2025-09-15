@@ -121,7 +121,7 @@ nav ul{
     background-color:#FFF8F3 ;
 
 }
-
+/* about section */
 
 .about{
     border-radius: 10px;
@@ -156,4 +156,37 @@ main {
     border: solid 2px;
     background-color: white;
     
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* what i do */
+/* Skill section */
+.skill-content{
+    text-align: center;
+    
+}
+
+.skill-content h1
+{
+    margin-bottom: 30px;
+}
+
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    height: 377px;
+    /* width: 267px; */
+    
+}
+
+
+.skill{
+    padding:30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
