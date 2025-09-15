@@ -103,3 +103,57 @@ nav ul{
     display: flex;
    gap: 20px;
 }
+
+.section-title
+{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.secondary-bg{
+    background-color:#FFF8F3 ;
+
+}
+
+
+.about{
+    border-radius: 10px;
+     padding: 131px 157px;
+     text-align: center;
+     margin-top: 10px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item-title
+{
+    color: #757575;
+    font-size: 20px;
+
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-box{
+    border: solid 2px;
+    background-color: white;
+    
+}
