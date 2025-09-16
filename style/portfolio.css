@@ -111,7 +111,7 @@ nav ul{
     color: #181818;
     font-size: 35px;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
     
 
 }
@@ -196,9 +196,7 @@ main section{
 }
 
 /* Resume */
-.resume{
-    /* text-align: center; */
-}
+
 
 .resume-container{
     display: flex;
@@ -215,7 +213,6 @@ main section{
     font-size: 25px;
     margin-bottom: 10px;
 
-
 }
 .experience-sub-title{
     font-weight: 600;
@@ -228,7 +225,6 @@ main section{
        color: #757575;
 
 }
-
 .resume h1{
     margin-bottom: 100px;
 }
@@ -244,3 +240,60 @@ main section{
 .resume .text-center{
     margin-top: 50px;
 }
+
+.secondary-bg .section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    /* text-align: left; */
+   
+}
+.secondary-bg .section-description{
+    color: #474747;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    
+}
+.footer-coloum{
+    width: 50%;
+}
+.footer-coloum .section-title{
+    margin-bottom: 28px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+footer input[type="text"]
+{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+     padding: 18px 30px;
+     font-size: 18px;
+}
+
+footer textarea{
+     width: 461px;
+     height: 180px;
+     /* height: auto; */
+     padding: 18px 30px;
+     font-size: 18px;
+     margin-bottom: 24px;
+}
+
+
