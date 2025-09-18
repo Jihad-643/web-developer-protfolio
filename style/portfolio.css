@@ -70,8 +70,10 @@ nav ul{
     /* width: 150px; */
     border: none;
      /* white-space: nowrap;  */
+     cursor: pointer;
     
 }
+
 
 .banner .btn-color{
     background-color: #FFF8F3;
@@ -112,6 +114,10 @@ nav ul{
     margin-bottom: 30px;
 }
 
+.banner .banner-img{
+    height: 800px;
+    width: auto;
+}
 
 .btn-info{
     display: flex;
@@ -134,7 +140,7 @@ nav ul{
 }
 
 .secondary-bg{
-    background-color:#FFF8F3 ;
+    background-color:#c4e7fd ;
 
 }
 /* about section */
@@ -213,6 +219,8 @@ main section{
 .resume-container{
     display: flex;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
 }
 
 .resume-coloum-title{
